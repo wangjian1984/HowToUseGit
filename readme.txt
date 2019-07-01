@@ -1,41 +1,46 @@
-ÕâÆª½Ì³ÌÕæ²»´íhttps://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374829472990293f16b45df14f35b94b3e8a026220c5000
+è¿™ç¯‡æ•™ç¨‹çœŸä¸é”™https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374829472990293f16b45df14f35b94b3e8a026220c5000
 
-²é¿´¹«³×
+è¦åˆ›å»ºå…¬åŒ™å’Œå¯†åŒ™
+åœ¨gitç½‘ç«™ä¸Šè®¾ç½®å…¬åŒ™
+è®¾ç½®æœ¬åœ°gitä¸è¿œç¨‹ä»“åº“çš„å…³è”
+ï¼ˆå¯ä»¥ä½¿ç”¨gitUIã€ideaæˆ–vsæ“ä½œç®€å•ï¼‰
+
+æŸ¥çœ‹å…¬åŒ™
 $ cat ~/.ssh/id_rsa.pub
 
 
 $ mkdir learngit
 $ cd learngit
 $ pwd
-$ git init   //ÕâÊ±ºò»áÓĞÒ»¸öÒş²ØÄ¿Â¼.git´´½¨ÔÚ¹¤×÷Ä¿Â¼learngitÏÂ
-´´½¨readme.txgËæ±ãĞ´µã¶«Î÷
-$ git add readme.txt    //git add readme.txtÓĞ¿ÉÄÜÊÇÌá½»ËùÓĞÎÄ¼ş
-$ git commit -m "±¸×¢"
-$ git status  //²é¿´±»¸Ä¶¯µÄÎÄ¼şÇåµ¥
-$ git diff readme.txt   //ĞŞ¸ÄÏêÇé
-$ git add readme.txt  //ÔÙ´ÎÌí¼ÓĞŞ¸ÄºóµÄÎÄ¼ş
-$ git log //²é¿´°æ±¾¿âĞŞ¸ÄÀúÊ·
-$ git reset //hard HEAD^ ·µ»ØÉÏÒ»¸ö°æ±¾ HEAD~100 ·µ»Øn¸ö°æ±¾
-$ git reset //hard 1094a ·µ»ØÄ³¸öÌØ¶¨°æ±¾£¬²ÎÊıÊÇid£¬¿É¼òĞ´
-$ git reflog  //²é¿´ËùÓĞÃüÁî
-$ git checkout -- readme.txt //¶Ô¹¤×÷ÇøµÄÎÄ¼şĞŞ¸Ä½øĞĞ³·Ïú
-$ git reset HEAD readme.txt //¶Ô»º³åÇøµÄÎÄ¼şĞŞ¸Ä½øĞĞ³·Ïú
-$ rm test.txt //É¾³ıÎÄ¼ş£¬ÊÖ¶¯É¾³ıÒ²Ò»Ñù
-$ git rm test.txt //É¾³ıºóÌá½»É¾³ıµ½»º³åÇø
-$ git checkout -- test.txt //É¾´íÎÄ¼ş¿ÉÒÔ»Ö¸´
-git remote add origin https://github.com/wangjian1984/HowToUseGit.git  //Á¬½Óµ½github
-$ git push -u origin master  //µÚÒ»´ÎÌá½»´úÂë
-$ git push origin master //Ìá½»´úÂë
-git remote ²é¿´Ô¶³Ì·ÖÖ§
-git remote -v Í¬ÉÏ
+$ git init   //è¿™æ—¶å€™ä¼šæœ‰ä¸€ä¸ªéšè—ç›®å½•.gitåˆ›å»ºåœ¨å·¥ä½œç›®å½•learngitä¸‹
+åˆ›å»ºreadme.txgéšä¾¿å†™ç‚¹ä¸œè¥¿
+$ git add readme.txt    //git add readme.txtæœ‰å¯èƒ½æ˜¯æäº¤æ‰€æœ‰æ–‡ä»¶
+$ git commit -m "å¤‡æ³¨"
+$ git status  //æŸ¥çœ‹è¢«æ”¹åŠ¨çš„æ–‡ä»¶æ¸…å•
+$ git diff readme.txt   //ä¿®æ”¹è¯¦æƒ…
+$ git add readme.txt  //å†æ¬¡æ·»åŠ ä¿®æ”¹åçš„æ–‡ä»¶
+$ git log //æŸ¥çœ‹ç‰ˆæœ¬åº“ä¿®æ”¹å†å²
+$ git reset //hard HEAD^ è¿”å›ä¸Šä¸€ä¸ªç‰ˆæœ¬ HEAD~100 è¿”å›nä¸ªç‰ˆæœ¬
+$ git reset //hard 1094a è¿”å›æŸä¸ªç‰¹å®šç‰ˆæœ¬ï¼Œå‚æ•°æ˜¯idï¼Œå¯ç®€å†™
+$ git reflog  //æŸ¥çœ‹æ‰€æœ‰å‘½ä»¤
+$ git checkout -- readme.txt //å¯¹å·¥ä½œåŒºçš„æ–‡ä»¶ä¿®æ”¹è¿›è¡Œæ’¤é”€
+$ git reset HEAD readme.txt //å¯¹ç¼“å†²åŒºçš„æ–‡ä»¶ä¿®æ”¹è¿›è¡Œæ’¤é”€
+$ rm test.txt //åˆ é™¤æ–‡ä»¶ï¼Œæ‰‹åŠ¨åˆ é™¤ä¹Ÿä¸€æ ·
+$ git rm test.txt //åˆ é™¤åæäº¤åˆ é™¤åˆ°ç¼“å†²åŒº
+$ git checkout -- test.txt //åˆ é”™æ–‡ä»¶å¯ä»¥æ¢å¤
+git remote add origin https://github.com/wangjian1984/HowToUseGit.git  //è¿æ¥åˆ°github
+$ git push -u origin master  //ç¬¬ä¸€æ¬¡æäº¤ä»£ç 
+$ git push origin master //æäº¤ä»£ç 
+git remote æŸ¥çœ‹è¿œç¨‹åˆ†æ”¯
+git remote -v åŒä¸Š
 --------------------------------------------------------
-$ git branch dev ´´½¨·ÏÖ½dev
-$ git checkout dev ÇĞ»»·ÖÖ§
-$ git branch ²é¿´ËùÓĞ·ÖÖ§
-$ git add readme.txt ÔÚ·ÖÖ§ÉÏÌá½»
+$ git branch dev åˆ›å»ºåºŸçº¸dev
+$ git checkout dev åˆ‡æ¢åˆ†æ”¯
+$ git branch æŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯
+$ git add readme.txt åœ¨åˆ†æ”¯ä¸Šæäº¤
 $ git commit -m "branch test"
-$ git checkout master ÇĞ»»»ØÖ÷Ïß
-$ git merge dev ºÏ²¢·ÖÖ§ÄÚÈİ
-$ git branch -d dev É¾³ı·ÖÖ§
-cat readme.txt Ö÷ÏßÓë·ÖÖ§ÓĞ³åÍ»Ê±±È½Ï
-$ git checkout -b dev origin/dev ¶àÈË¿ª·¢´´½¨Ô¶³Ì·ÖÖ§µ½±¾µØ,Õâ¸ö×îºÃÔÚ¿´¿´½Ì³Ì
+$ git checkout master åˆ‡æ¢å›ä¸»çº¿
+$ git merge dev åˆå¹¶åˆ†æ”¯å†…å®¹
+$ git branch -d dev åˆ é™¤åˆ†æ”¯
+cat readme.txt ä¸»çº¿ä¸åˆ†æ”¯æœ‰å†²çªæ—¶æ¯”è¾ƒ
+$ git checkout -b dev origin/dev å¤šäººå¼€å‘åˆ›å»ºè¿œç¨‹åˆ†æ”¯åˆ°æœ¬åœ°,è¿™ä¸ªæœ€å¥½åœ¨çœ‹çœ‹æ•™ç¨‹
